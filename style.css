@@ -1,7 +1,8 @@
 body{
     font-family: Roboto;
     font-size: 18px;
-    color: indigo;
+    line-height: 1.4;   /*space for each line of text, uses current font size as "multiplier" ; https://www.w3schools.com/cssref/pr_dim_line-height.asp*/
+    color: white;
     width: 640px; 
     background-image: url(p-background.svg);
     padding-top: 40px;
@@ -11,10 +12,7 @@ body{
 
 header {
     background-color: white;
-    padding: 20px;
-    border-left: solid;
-    border-right: solid;
-    border-color: indigo;
+    padding: 40px;
 }
 
 nav {
@@ -27,4 +25,14 @@ nav a {
     margin-right: 15px;
     color: white;
     text-decoration: none; /*get the underlines and other default a tag styles out*/
+}
+
+section {
+    background-color: #5000ff;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.2;
 }
