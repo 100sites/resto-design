@@ -1,5 +1,30 @@
 body{
     font-family: Roboto;
     font-size: 18px;
+    color: indigo;
+    width: 640px; 
     background-image: url(p-background.svg);
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    border-left: solid;
+    border-right: solid;
+    border-color: indigo;
+}
+
+nav {
+    background-color: rgb(195, 58, 58);
+    padding: 20px 40px 20px 40px; 
+    /*order is clockwise: north, east, south, west*/
+}
+
+nav a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none; /*get the underlines and other default a tag styles out*/
 }
